@@ -25,12 +25,6 @@ Acesse o diretório do projeto:
 cd fallout-shelters-showcase
 ```
 
-Instale as dependências:
-
-```bash
-npm install
-```
-
 Instale o Tailwind CSS:
 
 ```bash
