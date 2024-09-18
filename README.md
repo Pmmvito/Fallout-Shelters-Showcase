@@ -96,4 +96,15 @@ npx http-server
 
 Abra o projeto no seu navegador:
 
-Navegue até `http://localhost:8080` (ou a porta fornecida pelo seu servidor) para ver a aplicação em ação.
+    Navegue até http://localhost:8080 (ou a porta fornecida pelo seu servidor) para ver a aplicação em ação.
+
+Contribuindo
+
+Contribuições são bem-vindas! Se você quiser contribuir, por favor, faça um fork do repositório e crie um pull request.
+Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Agradecimentos
+
+    Tailwind CSS pelo framework CSS utilitário.
+    Font Awesome pelos ícones usados no projeto.
