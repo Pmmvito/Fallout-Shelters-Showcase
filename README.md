@@ -2,6 +2,11 @@
 
 Bem-vindo ao projeto Showcase de Abrigos Fallout! Este repositório contém o código para uma aplicação web que exibe vários abrigos fallout. O projeto utiliza o Tailwind CSS para o estilo.
 
+## Voce pode acessar pelo link:
+```
+https://pmmvito.github.io/Fallout-Shelters-Showcase/
+```
+
 ## Começando
 
 Para começar com este projeto, você precisará ter o Node.js instalado. Siga os passos abaixo para configurar o ambiente de desenvolvimento e executar o comando CLI do Tailwind CSS.
