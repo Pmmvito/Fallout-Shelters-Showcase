@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Fallout Shelters Showcase</title>
+
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("mobile")
+      menu.classList.toggle("hidden");
+    }
+  </script>
+</head>
+
+<body class="h-screen bg-cover bg-center bg-fixed"style="background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2023/11/fallout-vault-boy.jpg')">
+  <header id="pc" class="bg-yellow-600 p-4 flex justify-between border-b-2 border-yellow-700">
+    <h1 class="text-2xl font-bold">Fallout Shelters Showcase</h1>
+    <nav class="hidden md:block">
+      <ul class="flex space-x-6 font-bold text-lg">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shelters">Shelters</a></li>
+        <li><a href="#depoimento">Depoimento</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#Reclame">Reclame Aqui</a></li>
+      </ul>
+    </nav>
+
+    <div class="md:hidden flex align-middle">
+      <button onclick="toggleMenu()">
+        <i class="fa-duotone fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </header>
+
+  <nav id="mobile" class=" md:hidden hidden absolute w-full">
+    <ul class="space-y-4 p-4 bg-yellow-600 font-bold">
+      <li><a class="block" href="#home">Home</a></li>
+      <li><a class="block" href="#shelters">Shelters</a></li>
+      <li><a class="block" href="#depoimento">Depoimento</a></li>
+      <li><a class="block" href="#localizacao"></a>Localização</li>
+      <li><a class="block" href="#Reclame">Reclame Aqui</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="h-screen bg-cover bg-center bg-fixed"
+    >
+    <div class="h-full flex justify-center bg-black bg-opacity-50 flex-col items-center p-6">
+      <h1 class="text-2xl font-bold text-white sm:text-4xl md:text-5xl text-center">O melhor abrigo para o fim do mundo
+      </h1>
+      <p class="text-xl my-8 text-white">O mundo pode acabar amanha</p>
+      <a href=""
+        class=" bg-yellow-500 hover:bg-yellow-800 font-bold py-2 px-4 rounded transition-all w-full sm:w-auto uppercase sm:capitalize text-center">RESERVAR</a>
+    </div>
+  </section>
+
+  <section id="shelters" class="bg-gray-100 p-4 ">
+
+    <div class="container mx-auto">
+      <h2 class="text-center text-3xl font-bold mb-8 text-slate-700">Nossos Shelters</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 mb-8 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://ih1.redbubble.net/image.573340293.7110/raf,360x360,075,t,fafafa:ca443f4786.u3.jpg">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 76</h3>
+          <p>Uma das opções para voçê que quer uma vida tranquila após o fim do mundo</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://pm1.aminoapps.com/6134/ca4487b684b420f10a905c5469b14f370dc1eba5_hq.jpg">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 77</h3>
+          <p>A mesma coisa que o 76 so que com mais um </p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://ih1.redbubble.net/image.4813379594.7779/raf,360x360,075,t,fafafa:ca443f4786.jpg">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 33</h3>
+          <p>Um abrigo normal para gente normal</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqpRP8AYZCD9W3s9mxBdxo1zHOExMbV2BycdM8_AyG1u5YmTMYXVV1Y1X72fE8bnBS0Q&usqp=CAU">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 13</h3>
+          <p>Esse abrigo é 100% automatico</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-7nTPfaVhssXNXprh3gxKrSTlYShF-OaZA&s">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 111</h3>
+          <p>Uma das opções numero 1</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <div class="h-28 w-28 mb-4">
+            <img src="https://i.pinimg.com/originals/5a/e1/9b/5ae19b1ff686ede4c4a9e9e5bc84adb0.png">
+          </div>
+          <h3 class="mp-4 font-bold text-lg">Shelter 101</h3>
+          <p>Pra voçe que gosta</p>
+        </div>
+
+
+
+      </div>
+  </section class="p-4">
+  <section id="depoimento" class="py-12 bg-yellow-600 ">
+    <h2 class="text-3xl font-bold text-center mb-8 text-slate-100 ">Análise de nossos clientes</h2>
+    <div class="mx-auto text-center mb-16">
+      <blockquote class="italic text-xl mb-4">"Acho que sinto falta da luz do sol"</blockquote>
+      <cite class="text-lg">Cliente reclamão</cite>
+    </div>
+    <div class="mx-auto text-center mb-16">
+      <blockquote class="italic text-xl mb-4">"Muito bom ficar preso pelo resto da minha vida pelomenos nao estou morto
+        ainda"</blockquote>
+      <cite class="text-lg">Cliente muito satisfeito</cite>
+    </div>
+    <div class="mx-auto text-center mb-16">
+      <blockquote class="italic text-xl mb-4">"Cumpre com o prometido"</blockquote>
+      <cite class="text-lg">Cliente satisfeito</cite>
+    </div>
+  </section>
+  <section id="localizacao" class="h-screen bg-opacity-50 bg-black ">
+    
+    <h3 class="text-center font-bold p-8">Localizações Uteis</h3>
+    <div>
+      <div class="">
+        <iframe src="https://fallout4map.com?embed=light" height="500"
+          style="position: relative; width: 100%;"></iframe>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="bg-yellow-700 p-4 text-center h-32">
+
+    <div class="flex m-4 justify-center">
+      <a href="#" class="mx-2 hover:underline hover:text-gray-400">Política de privacidade</a>
+      <a href="#" class="mx-2 hover:underline hover:text-gray-400">Termos de serviço</a>
+    </div>
+    <div>
+      <a href="#" class="mx-2 hover:text-gray-400">Facebook</a>
+      <a href="#" class="mx-2 hover:text-gray-400">Instagram</a>
+      <a href="#" class="mx-2 hover:text-gray-400">Whatsapp</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
